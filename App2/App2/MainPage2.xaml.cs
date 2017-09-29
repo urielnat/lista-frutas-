@@ -20,7 +20,7 @@ namespace App2
                 RowHeight = 100
             };
             list.ItemsSource = new TodoItem[] {
-                new TodoItem { Name = "Comprar pera",Imagen="https://i.ytimg.com/vi/3fHynPXZAT8/maxresdefault.jpg" },
+                new TodoItem { Name = "Comprar peras",Imagen="https://i.ytimg.com/vi/3fHynPXZAT8/maxresdefault.jpg" },
                 new TodoItem { Name = "Comprar naranjas", Done=true,Imagen="http://pngimg.com/uploads/orange/orange_PNG800.png"} ,
                 new TodoItem { Name = "Comprar mangos",Imagen ="http://www.danper.com/media_danper/uploads/producto/frutas/mango-peruano-sabor-tropical.jpg" },
                 new TodoItem { Name = "Comprar manzana", Done=true,Imagen="http://static.commentcamarche.net/sante-medecine.commentcamarche.net/pictures/9dA3Z9lr-photo-pomme-2.png" },
