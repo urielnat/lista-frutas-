@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App2"
+             x:Class="App2.MainPage2"
+    Title="Lista" Icon="fruits.png">
+    <StackLayout Spacing="10">
+       <ActivityIndicator Color="Aqua" IsRunning="true" x:Name="indicador"></ActivityIndicator>
+       <ListView x:Name="lista" IsRefreshing="true"></ListView>
+        <Button x:Name="showSave" Text= "mostrar" ></Button>
+
+    </StackLayout>
+</ContentPage>

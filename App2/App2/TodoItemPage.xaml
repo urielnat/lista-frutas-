@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.TodoItemPage"
+    Title="Fruta" Icon="shop.png"  >
+    <ContentPage.Content  >
+        <StackLayout >
+            <ActivityIndicator Color="Aqua" IsRunning="true" x:Name="indicador"></ActivityIndicator>
+            <Label x:Name="texto" Text="{Binding Name}" />
+            <!-- otra manera de hacer es asignadole un binding-->
+            <Label x:Name="texto2" Text="{Binding Done}"/>
+            <Image x:Name="img" Source="{Binding Imagen}"/>
+            <Button  x:Name="save" Text="Guardar" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
